@@ -840,7 +840,51 @@ body.dark-theme {
   background-color: var(--white-color);
 }
 
+/* Adding a new media query for smaller screens to avoid overlap */
+@media (max-width: 576px) {
+  .home__container {
+    padding-top: 1rem;
+  }
 
+  .home__image {
+    width: 180px;
+  }
+
+  .home__social {
+    left: -2rem;
+    top: initial;
+    bottom: 1rem;
+  }
+
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about__image {
+    width: 180px;
+  }
+
+  .about__info {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .projects__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .contact__data {
+    width: 100%;
+    padding: 1rem;
+  }
+}
 
 /*=============== CONTACT ===============*/
 .contact {
@@ -1640,3 +1684,4 @@ body.dark-theme {
 .button:hover {
   background-color: var(--first-color);
 }
+
