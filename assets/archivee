@@ -1,0 +1,27 @@
+<!-- Freelance Music Business -->
+        <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+                <div class="services__icon">
+                    <div class="services__box"></div>
+                    <i class="ri-code-box-line"></i>
+                </div>
+            
+                <h2 class="services__title">Freelance Music Performance and Production Business</h2>
+
+                <p class="services__description">
+                    - Built an online presence reaching thousands using <u>content creation</u>, <u>SEO</u>, and <u>audience engagement</u>.
+                </p>
+                <p class="services__description">
+                    - <u>Generated leads</u>, converting many into paying clients while maintaining high <u>client retention</u>.
+                </p>
+                <p class="services__description">
+                    - <u>Developed a personal brand</u> featured in media outlets; managed end-to-end projects in music, video production, and social media.
+                </p>
+
+                <div class="portfolio__content">
+                    <a href="https://www.youtube.com/watch?v=BzHocPzHDp0" class="button portfolio__button">View Music Portfolio</a>
+                </div>
+            </div>
+        </article>
